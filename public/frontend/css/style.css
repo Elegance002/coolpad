@@ -35,6 +35,12 @@ Version:1.0
 20. 404 Error CSS
 21. Footer CSS
 ========================================*/
+body{
+	background-color: #f5f5f5;;
+}
+.section{
+	padding:70px 0px;
+}
 .color-plate {
 	position: fixed;
 	display: block;
@@ -253,7 +259,7 @@ Version:1.0
 }
 .header .nav li a i {
 	margin-left: 6px;
-	font-size: 10px;
+	font-size: 17px;
 }
 /* Dropdown Menu */
 .header .nav li .dropdown {
@@ -379,9 +385,7 @@ Version:1.0
 	color: #F7941D;
 }
 /* Topbar Left Nav */
-.header.shop .left-nav{
-	
-}
+
 .header.shop .top-left .list-main li:first-child{
 	padding-left:0;
 }
@@ -1760,7 +1764,8 @@ Version:1.0
   position: relative;
 }
 .single-product .product-img a img {
-  width: 100%;
+  width: 300px;
+  height: 300px;
 }
 .single-product .product-img a img.hover-img {
   position: absolute;
@@ -3703,11 +3708,11 @@ Version:1.0
 ========================================*/
 .shop-services.section {
 	padding: 80px 0 0px 0;
-	background: #fff;
+	background: #e6e6e6;
 }
 .shop-services.home{
 	padding:60px 0;
-	background:#F6F7FB;
+	background:#e6e6e6;
 }
 .shop-services .single-service {
 	position: relative;
@@ -3747,21 +3752,24 @@ Version:1.0
    Start Shop Newsletter CSS
 ========================================*/
 .shop-newsletter{
-	background:#fff;
+	background:#e6e6e6;
 }
 .shop-newsletter .inner{
 	text-align:center;
 }
+.shop-newsletter{
+	padding: 44px 0px;
+}
 .shop-newsletter .inner h4 {
-	color: #333;
-	font-size: 17px;
+	color: #000;
+	font-size: 24px;
 	font-weight: 600;
 	margin-bottom: 5px;
 	text-transform: uppercase;
 }
 .shop-newsletter .inner p{
 	color:#777;
-	font-size:14px;
+	font-size:18px;
 	font-weight:400;
 	margin-bottom:30px;
 }
@@ -3773,9 +3781,8 @@ Version:1.0
 	display: inline-block;
 }
 .shop-newsletter .newsletter-inner input {
-	width: 480px;
+	width: 360px;
 	height: 55px;
-	border-radius: 0px;
 	padding: 0px 30px;
 	font-weight: 400;
 	display: inline-block;
@@ -3784,7 +3791,6 @@ Version:1.0
 	border-radius: 0;
 	border: none;
 	border: 1px solid #ececec;
-	border-radius: 30px 0 0 30px;
 }
 .shop-newsletter .newsletter-inner button{
 	border:none;
@@ -3798,10 +3804,10 @@ Version:1.0
 	padding: 10px 30px;
 	position: relative;
 	top: 0;
-	background: #F7941D;
+	background: #3a3fb5;
 	color: #fff;
 	left: -4px;
-	border-radius: 0 30px 30px 0;
+	
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -4826,7 +4832,7 @@ Version:1.0
 .footer .about .logo{
 	margin-bottom:20px;
 }
-.footer .about .logo img{}
+
 .footer .about .text{
 	color:#fff;
 	font-weight: 400;
@@ -4844,7 +4850,7 @@ Version:1.0
 	font-size: 20px;
 	font-weight: 600;
 }
-.footer .links ul{}
+
 .footer .links ul li {
 	display: block;
 	margin-bottom: 8px;
@@ -4860,9 +4866,7 @@ Version:1.0
 	color:#F7941D;
 	padding-left:10px;
 }
-.footer .social{}
-.footer .social .contact{}
-.footer .social .contact ul{}
+
 .footer .social .contact ul li {
 	color: #fff;
 	display: block;
@@ -4891,14 +4895,11 @@ Version:1.0
 	color:#F7941D;
 }
 /* Copyright */
-.footer .copyright{
-	
-}
+
 .footer .copyright .inner{
 	border-top:1px solid #eeeeee3d;
 	padding:20px 0;
 }
-.footer .copyright .left{}
 .footer .copyright .right{
 	float:right;
 }
@@ -4918,6 +4919,281 @@ Version:1.0
 }
 
 .header.shop .header-inner {
-    background: transparent;
+    background: #f5f5f5;
+}
+
+.fa-search:before {
+    content: "\f002";
+	font-size: 21.5px;
+}
+#learn{
+	font-size: 20px; 
+	color:#3a3fb5;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+.info-box {
+	padding-right: 0px;
+	padding-left: 0px;
+	position: relative;
+	margin-top: -50px;
+}
+
+.info-box > img {
+	height: 280px;
+	width: 390px;
+}
+
+.title-text{
+	font-size: 24px;
+	position: relative;
+	margin: -260px 2px 0px 5px;
+}
+.title-text>p {
+	color: #000;
+}
+
+.latest-img1, .latest-img2{
+	padding: 2px;
+}
+
+.latest-img1>img {
+	height: 100%;
+	width: 100%;
+}
+
+.latest-img2>img {
+	height:100%;
+	width: 100%;
+}
+
+.shop-now{
+	font-size: 20px;
+	line-height: 1.45;
+	text-align: left;
+}
+
+.shop-now>button{
+	float: right;
+}
+
+
+#demo1 {
+    background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
+    max-width: 900px;
+    margin: auto
+}
+
+.carousel-caption1 {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption1 {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption1 img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption1 img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+}
+
+#image-caption1 {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption1 {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+.tarrow-left>i {
+    float: left;
+}
+
+@media(max-width:767px) {
+    .tarrow-left>i {
+        float: left;
+    }
+}
+.tarrow-right>i {
+    float: right;
+}
+
+@media(max-width:767px) {
+    .tarrow-right>i {
+        text-align: center;
+    }
+}
+
+.carousel-control-prev1 {
+    justify-content: flex-start
+}
+
+.carousel-control-next1 {
+    justify-content: flex-end
+}
+
+.carousel-control-prev1,
+.carousel-control-next1 {
+    transition: none;
+    opacity: unset
+}
+
+/* end testimonial css */
+
+/* start latest news css */
+.latest1, .latest2{
+	padding: 2px;
+}
+
+.latest1>img{
+	height: 200px;
+	width: 100%;
+}
+.latest2>img{
+	height: 400px;
+	width: 100%;
+}
+/* end latest news css */
+
+.footer-logo{
+	height: 36px;
+    width: 173px;
+}
+
+
+/* MEGA MENU STYLE
+********************************/ 
+.mega-menu {
+	padding: 10px 0px ! important;
+	width: 540px;
+	border-radius: 0;
+	margin-top: 0px;
+}
+
+.mega-menu li {
+	display: inline-block;
+	float: left;
+	font-size: 0.94rem;
+	padding: 3px 0px;
+}
+
+.mega-menu li.mega-menu-column {
+	margin-right: 20px;
+	width: 150px;
+}
+
+.mega-menu .nav-header {
+	padding: 0 !important;
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+.mega-menu img {
+	 padding-bottom: 10px;
+}
+
+/* Disable Toggle style
+********************************/  
+
+/* Dropdown Toggle on style */
+.navbar .nav li.dropdown.open > .dropdown-toggle, 
+.navbar .nav li.dropdown.active > .dropdown-toggle, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    background: inherit; /* Set to inherit when using mouse hover to open dropdown */
+    color: inherit;
+    }   
+    /* Toggle off style */
+    .navbar .nav li.dropdown.open.active > .dropdown-toggle,
+    .navbar .nav > li.dropdown > a:focus { 
+    background: inherit;
+    color: inherit;
+    }
+    /* Toggle hover */
+    .navbar .nav li.dropdown > .dropdown-toggle:hover,
+    .navbar .nav li.dropdown.open > .dropdown-toggle:hover {
+    background-color: #DDDDDD;
+    }
+            
+            
+ /* Toggle caret*/
+/* Toggle caret hover */
+.navbar .nav li.dropdown > a:hover .caret, 
+.navbar .nav li.dropdown > a:focus .caret {
+border-bottom-color: #333;
+border-top-color: #333;
+}
+/* Toggle caret active */
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret, 
+.navbar .nav li.dropdown.active > .dropdown-toggle .caret, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+border-bottom-color:#333;
+border-top-color: #333;
+}
+
+
+
+/* Hover style
+********************************/ 
+.navbar .nav > li > a, .mega-menu a
+ { 
+  -webkit-transition: all 200ms ease;
+	 -moz-transition: all 200ms ease;
+	  -ms-transition: all 200ms ease;
+	   -o-transition: all 200ms ease;
+	      transition: all 200ms ease; 
+	
+		 /* -webkit-transform: translate3d(0, 0, 0); Webkit Hardware Acceleration*/ 
+	     -webkit-backface-visibility: hidden; /* Safari Flicker Fix #2 */
+	     -webkit-transform: translateZ(0);
+}	
+
+/*
+Featured products style
+*/
+
+.more-btn>a {
+	float: right; 
+	background-color: rgba(58, 63, 181, 0.09);
+	color: #3a3fb5;; 
+	border-radius:50px;
+	text-align: center;
+	line-height: 1.21;
+	font-size: 12px;
 }
 

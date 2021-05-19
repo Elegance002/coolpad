@@ -2,11 +2,10 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('admin')}}">
-      <div class="sidebar-brand-icon ">
+      <div class="sidebar-brand-icon">
         {{-- <i class="fas fa-laugh-wink"></i> --}}
         <img src="{{asset('backend/img/logo1.png')}}" class="img-fluid" style="max-width:80px" alt="avatar.png">
       </div>
-      <div class="sidebar-brand-text mx-3">Coolpad</div>
     </a>
 
     <!-- Divider -->
